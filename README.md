@@ -3,7 +3,9 @@
 A simple and responsive weather application built with **React** that allows users to search for real-time weather information by city. The app fetches data from the **OpenWeatherMap API** and displays key weather metrics such as temperature, humidity, wind speed, weather conditions, and sunrise/sunset times.
 
 ---
+## 📸 Screenshot
 
+![Weather App Screenshot](weather-app-screenshot.png)
 
 ## 🚀 Features
 
