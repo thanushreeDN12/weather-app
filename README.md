@@ -1,5 +1,12 @@
 A simple and responsive weather application built with React that allows users to search for real-time weather information by city. The app fetches data from the OpenWeatherMap API and displays key weather metrics such as temperature, humidity, wind speed, weather conditions, and sunrise/sunset times.
 
+🔗 Live Demo
+
+ Click here to view the live app
+
+<sub>(Replace the URL with your actual deployed link)</sub>
+
+
 🚀 Features
 
 🔍 Search weather by city name
@@ -16,6 +23,7 @@ A simple and responsive weather application built with React that allows users t
 
 ⚠️ Graceful error handling for invalid searches
 
+
 🛠️ Tech Stack
 
 React (Functional Components + Hooks)
@@ -23,6 +31,7 @@ React (Functional Components + Hooks)
 CSS (Responsive styling with Flexbox)
 
 OpenWeatherMap API
+
 
 📦 Installation & Setup
 
