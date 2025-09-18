@@ -1,0 +1,74 @@
+
+/* ===== Search Box Wrapper ===== */
+.search-box {
+  padding: 20px;
+  text-align: center;
+}
+
+/* ===== Search Form Styling ===== */
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* ===== Input Field ===== */
+.form input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 250px;
+  max-width: 100%;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form input:focus {
+  border-color: #007bff;
+}
+
+/* ===== Button ===== */
+.form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #218838;
+}
+
+/* ===== Weather Info Styling ===== */
+.info {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Responsive Tweaks */
+@media (max-width: 576px) {
+  .form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .form input,
+  .form button {
+    width: 100%;
+  }
+}
