@@ -31,7 +31,7 @@ A simple and responsive weather application built with **React** that allows use
 
 **Clone the repository:**
 
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/thanushreeDN12/weather-app.git
    cd weather-app
    Install dependencies:
    
